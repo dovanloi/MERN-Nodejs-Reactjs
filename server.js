@@ -18,7 +18,7 @@ const db = require('./config/keys').mongoURI;
 
 // Connect to MongoDB
 mongoose
-    .connect('mongodb+srv://admin:Loikthp@cluster0-6t2iw.mongodb.net/test?retryWrites=true&w=majority',{
+    .connect('mongodb+srv://admin:password@cluster0-6t2iw.mongodb.net/test?retryWrites=true&w=majority',{
             useCreateIndex: true,
             useNewUrlParser: true
     })
